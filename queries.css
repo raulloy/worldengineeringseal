@@ -120,6 +120,15 @@
   header {
     padding: 2rem 3rem;
   }
+  .hero-img {
+    grid-row: 1;
+    z-index: 1;
+  }
+  .hero-img .earth {
+    left: 50%;
+    width: 250px;
+    height: 250px;
+  }
   section,
   footer {
     padding: 7.5rem 3rem;
