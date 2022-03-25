@@ -254,7 +254,7 @@ section.hero {
 .hero-img{ 
   display: flex;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 80vh;
   transform-style: preserve-3d;
 }
 .hero-img .earth{
