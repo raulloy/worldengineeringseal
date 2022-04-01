@@ -537,3 +537,33 @@ section{ padding: 20px; }
 .col-2 h1{ font-size: 50px; line-height: 68px; margin: 25px 0; }
 .single-product .fa{ color: #0026ff; margin-left: 10px; }
 .col-2 h2,h3{ text-align: left; }
+
+
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 56.25%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  section,
+  footer {
+    padding: 7.5rem 5rem;
+  }
+  header {
+    padding: 2.2rem 5rem;
+    z-index: 999;
+  }
+  section.hero {
+    grid-template-columns: 1fr;
+    background: linear-gradient(
+      45deg,
+      rgb(var(--grad-color-1)),
+      rgb(var(--grad-color-2))
+    );
+  }
+  .detail-row{
+    display: block;
+  }
+}
+
